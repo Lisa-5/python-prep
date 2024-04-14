@@ -6,7 +6,7 @@
 # In 30 years, you will be 57 years old.
 # In 40 years, you will be 67 years old.
 
-age = input('How old are you? ')
+age = int(input('How old are you? '))
 print()
 
 print(f'You are {age} years old.')
@@ -14,7 +14,7 @@ print(f'You are {age} years old.')
 future_years = [10, 20, 30, 40] #range(10, 50, 10)
 
 for year in future_years:
-    print(f'In {year} years, you will be {int(age) + year} years old.')
+    print(f'In {year} years, you will be {age + year} years old.')
 
 
 
